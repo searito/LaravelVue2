@@ -37,7 +37,8 @@
                                         </a>
                                     </div>
                                     <div class="eight wide column">
-                                        <a href="#" class="circular ui icon red button" data-tooltip="Eliminar Tarea" data-position="top left" data-inverted="">
+                                        <a href="#" class="circular ui icon red button" data-tooltip="Eliminar Tarea" 
+                                            data-position="top left" data-inverted="" @click="deleteKeep(tarea)">
                                             <i class="trash alternate outline icon"></i>
                                         </a>
                                     </div>
